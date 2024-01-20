@@ -1,8 +1,7 @@
 import pandas as pd
 import csv
 
-# Function to calculate the total price
-def calculate_total_price(price_inr, price_usd):
+yhh  dbvbef calculate_total_price(price_inr, price_usd):
     return price_inr + price_usd * 83
 
 # Read data from CSV file using Pandas
