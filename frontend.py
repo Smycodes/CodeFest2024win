@@ -2,16 +2,16 @@ from tkinter import *
 import subprocess
 
 def open_chatbot_file():
-    subprocess.Popen(['python', 'chatbot1.py'], shell=True)
+    subprocess.Popen(['python', 'AIcompgui.py'], shell=True)
 
 def open_ai_product_file():
-    subprocess.Popen(['python', 'AI_product.py'], shell=True)
+    subprocess.Popen(['python', 'AI_productGUI.py'], shell=True)
 
 root = Tk()
 
 myLabel = Label(root, text="Welcome to SSA")
 myLabel.grid(row=0, column=1)
-
+ 
 myLabel2 = Label(root, text="Customizable ChatBot for your website")
 myLabel2.grid(row=3, column=0)
 
