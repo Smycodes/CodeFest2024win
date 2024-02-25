@@ -40,6 +40,7 @@ def submit_user_input():
         if best_match:
             print(f"Bot: {best_match}")
         else:
+<<<<<<< HEAD
             print("Bot: I don't know how to respond to that. I will relay you query to our main center. I am sorry for the inconvenience.")
             
 =======
@@ -75,3 +76,6 @@ output_text['yscrollcommand'] = scrollbar.set
 # Run the GUI
 window.mainloop()
 >>>>>>> d34e91685dad23d9ea0860e6b48c7178315f52fd
+=======
+            print("Bot: I don't know how to respond to that. I will relay you query to our main center. I am sorry for the inconvenience.")
+>>>>>>> 44f30ead004fa4046ec477e39a3abcb56a4bbf12
